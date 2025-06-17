@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "build": "webpack --mode production",
     "dev": "npm run development",
     "development": "mix",
     "watch": "mix watch",
@@ -8,6 +9,7 @@
     "hot": "mix watch --hot",
     "prod": "npm run production",
     "production": "mix --production"
+    
   },
   "devDependencies": {
     "axios": "^1.6.4",
